@@ -5,11 +5,11 @@ Java를 이용한 프로그래밍
 - Java
 - [Java](https://github.com/hyejeong99/Java) : Java Programing
 
-### 1. JAVA_1
-#### scanner_box
+## 1. JAVA_1
+### scanner_box
 스캐너를 이용해 직사각형 만들기
 
-#### hello_java
+### hello_java
 main()함수에서 사용할 문자 1개와 몇개 인쇄할 지를 입력 받아서 Hello Java를 출력하기
 
 [입력]
@@ -21,30 +21,30 @@ main()함수에서 사용할 문자 1개와 몇개 인쇄할 지를 입력 받�
 Hello, Java
 ******************************
 
-#### FindNum
+### FindNum
 FindNum 프로그램
 
-#### box_class
+### box_class
 직사각형의 둘레와 면적을 구하는 프로그램을 작성한다. 직사각형의 가로와 세로를 각각 W와 H라고 하면 직사각형의 면적은 "WxH"가 되고 둘레는 "2x(W+H)"가 된다. 
 
-#### bank_account
+### bank_account
 ![noname01](https://user-images.githubusercontent.com/59854960/113369288-f97f1000-939b-11eb-96ca-bfde2c5e4488.png)
 
 배열에 대하여 실습하여 보자. 회사에서 직원들을 관리하는 프로그램을 작성한다. 직원들의 이름, 주소, 연봉, 전화번호를 가지고 있다. 직원은 Employee클래스로 표현된다. 회사 전체의 직원은 Employee의 배열 안에 저장된다.
 
-#### Vehicle
+### Vehicle
 ![noname02](https://user-images.githubusercontent.com/59854960/113369378-30edbc80-939c-11eb-8a20-738b692d4a21.png)
 
 이동 수단의 속도와 연비를 출력한다.
 
-#### shape
+### shape
 사각형, 삼각형, 원의 각 도형의 넓이를 계산하라.
 
-#### fileCopy
+### fileCopy
 파일을 복사한다.
 이후 복사가 잘 되었는지 확인하는 프로그램이다.
 
-#### copyByte_Buffer
+### copyByte_Buffer
 - CopyByte myPicture.jpg copyMyPicture.jpg
 : 바이트 단위로 카피해 주는 프로그램
 - CopyBuffer myPicture.jpg copyMyPicture.jpg
@@ -52,7 +52,7 @@ FindNum 프로그램
 
 각각을 명령창에서 실행하고, 실행 시간을 비교한다.
 
-#### finalProject
+### finalProject
 UI를 이용한 편의점 프로그램이다.
 - Management 객체 : 물품 리스트에 물품을 등록하고, 삭제한다.
 
@@ -64,41 +64,41 @@ UI를 이용한 편의점 프로그램이다.
 사용자에게 "분류 -> 물품(번호로)"를 입력받고, 구매 수량도 입력 받아야 한다.
 구매자가 원하는 물품의 값을 우선 알려줘야 한다. 그리고, 구매자가 돈이 있고, 사겠다고 했을 때 구매 절차가 이뤄진다.
 
-### 1. JAVA_2
-#### project_to_List
+## 1. JAVA_2
+### project_to_List
 JAVA_1의 finalProject를 분석해서 Linked List 자료구조 객체로 바꾸어 구현한다.
 Management 클래스 내의 array 배열을 Linked List 로 바꾸고, Management 내의 멤버 함수 구현 부분을  Linked List 멤버함수를 이용해서 간단한 형태로 바꿔준다.
 
-#### project_to_DataStructure
+### project_to_DataStructure
 프로젝트를 보완된 완성본 자료구조 객체로 바꾸기 버전으로 만든다.
 
-#### project_to_Object
+### project_to_Object
 프로젝트를 Object로 Goods 객체를 저장한다.
 
-#### project_modify_UI
+### project_modify_UI
 지금까지 Management class가 수정된 것을 바탕으로 UI 클래스를 수정한다.
 
-#### project_to_GUI
+### project_to_GUI
 프로젝트 진행한 내용을 GUI 이벤트를 구현한다.
 
-#### GUI_chat
+### GUI_chat
 GUI 버전1 대 1 채팅 프로그램을 만든다.
 
 - 클라이언트 :  IP 주소 및 Port  넘버 넣고 연결해야 한다.
 - 서버 : 지금 연결된 클라이언트가 누구인가를 항상  ip를 볼 수 있게  GUI 설계 한다.
 
-#### figure_Grahpics
+### figure_Grahpics
 다양한 도형 그리기
 
-#### project_to_JDBC
+### project_to_JDBC
 JDBC 사용해서 GUI 프로그램 바꿔준다. 
 GUI에서 직접 DB statement를 사용해서 DB를 access 하는 방법을 사용한다.
 
-#### JDBC_Applet
+### JDBC_Applet
 ![자바애플릿](https://user-images.githubusercontent.com/59854960/113370620-457f8400-939f-11eb-9bc3-152cf05480b8.png)
 jdbc GUI 프로그램을 jdbc Applet 프로그램으로 바꾼다.
 
-##### 편의점 관리 프로그램
+### [최종]편의점 관리 프로그램
 ![처음](https://user-images.githubusercontent.com/59854960/113370855-e3734e80-939f-11eb-9515-2b1ab8837bf5.png)
 
 처음 시작하면 구매자, 관리자, 종료 버튼을 선택할 수 있다.
