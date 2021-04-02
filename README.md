@@ -64,7 +64,7 @@ UI를 이용한 편의점 프로그램이다.
 사용자에게 "분류 -> 물품(번호로)"를 입력받고, 구매 수량도 입력 받아야 한다.
 구매자가 원하는 물품의 값을 우선 알려줘야 한다. 그리고, 구매자가 돈이 있고, 사겠다고 했을 때 구매 절차가 이뤄진다.
 
-## 1. JAVA_2
+## 2. JAVA_2
 ### project_to_List
 JAVA_1의 finalProject를 분석해서 Linked List 자료구조 객체로 바꾸어 구현한다.
 Management 클래스 내의 array 배열을 Linked List 로 바꾸고, Management 내의 멤버 함수 구현 부분을  Linked List 멤버함수를 이용해서 간단한 형태로 바꿔준다.
